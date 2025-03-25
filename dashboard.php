@@ -56,6 +56,13 @@ $profile_pic = !empty($user['profile_pic']) ? $user['profile_pic'] : 'uploads/de
             background:rgba(238, 255, 0, 0.5) !important;
             color: white;
         }
+        .navbar {
+    background-color: #0d6efd;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensures it stays on top of other elements */
+}
     </style>
 </head>
 <body>

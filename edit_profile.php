@@ -67,7 +67,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <style>
         body {
-        background: linear-gradient(135deg,rgb(211, 211, 201), #fad0c4,rgb(107, 100, 85));
+        background: linear-gradient(135deg,rgb(163, 216, 247), #fad0c4,rgb(158, 221, 250));
         }
         .navbar {
             background-color: #0d6efd;
@@ -76,7 +76,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             color: white !important;
         }
         .container {
-            background: linear-gradient(135deg,rgb(78, 78, 71), #fad0c4,rgb(211, 211, 201));;
+            background: linear-gradient(135deg, #fad0c4, rgb(163, 216, 247),rgb(211, 211, 201));;
             max-width: 600px;
             margin-top: 20px;
         }
@@ -88,7 +88,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             display: block;
             margin: 0 auto;
         }
-    </style>
+        .navbar {
+    background-color: #0d6efd;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensures it stays on top of other elements */
+}
+ </style>
 </head>
 <body>
 

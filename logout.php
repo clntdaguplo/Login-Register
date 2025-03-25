@@ -4,3 +4,4 @@ session_destroy(); // Destroy all sessions
 header("Location: login.php"); // Redirect to login
 exit();
 ?>
+

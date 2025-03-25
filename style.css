@@ -1,7 +1,7 @@
 /* Global Styles */
 body {
     font-family: Arial, sans-serif;
-    background: linear-gradient(135deg, #fff12b, #fad0c4, #1a0038);
+    background: linear-gradient(135deg, hwb(55 91% 4%), #fad0c4, hsl(199, 100%, 11%));
     display: flex;
     justify-content: center;
     align-items: center;
@@ -85,3 +85,10 @@ a:hover {
     margin: 0 auto 15px; /* Center the logo */
 }
 
+.navbar {
+    background-color: #0d6efd;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 1000; /* Ensures it stays on top of other elements */
+}
